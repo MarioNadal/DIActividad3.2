@@ -35,7 +35,6 @@ function App() {
   return (
     <div>
       <Calculation tipocalculo={tipocalculo} input1EnteredHandler={input1EnteredHandler} input2EnteredHandler={input2EnteredHandler} tipoCalculoEnteredHandler={tipoCalculoEnteredHandler}/>
-      {a}
       <text>Resutlado: {resultado}</text>
     </div>
   );
