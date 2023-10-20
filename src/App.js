@@ -3,7 +3,6 @@ import './App.css';
 import Calculation from './Calculation';
 
 function App() {
-  //texto
   const [a, setA] = useState(0);
   const [b, setB] = useState(0);
   const [tipocalculo, setTipoCalculo] = useState("+");
